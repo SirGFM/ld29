@@ -1,0 +1,42 @@
+
+t120
+
+// [bass]
+@2 o2 l8 $
+a2. g2.
+; // [/bass]
+
+// [bg-melody]
+#TABLE 2 { (100, 48)8, (64, 12)8 };
+#TABLE 3 { 50, 24, 44, 20, 40, 16, 36, 12, 32, 8, 28, 4, 24, 0 };
+
+@0 na3 l8 o6 v8 $
+[r a<cec>a r gb<d>bg]2;
+// [/bg-melody]
+
+; // [melody]
+@0 o6 l8 na2 $
+r1r1r1
+a4<ce4r dc>bgrr
+b4<cd4r >baggrr
+a4<ce4r dc>bgrr
+<dc>b<c>bgg4r4.r
+; // [/melody]
+
+// [percussion]
+#H=g;
+#S=%0 @1 na4 o4 e na0;
+#K=%2 @4 v14 o3 b;
+#C=na1 q6 g4 na0 q1;
+
+#TABLE 0 { 128};
+#TABLE 1 { 120, 120, 112, 112, 104, 104, 96, 96, 88, 88, 80, 80, 72, 72, 64, 64, 56, 56, 48, 48 };
+
+// Snare + Kick
+q1 l8 $
+
+[KrKSrr]3 KKKSrr
+[KrKSrr]3 KKKSrr
+[KrKSrr]2 SKKSKKSrKKrr
+
+;// [percussion]

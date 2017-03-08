@@ -1,0 +1,23 @@
+
+t120
+
+// [bass]
+@2 o2 l16 $
+ara<c>raara<c>raara<c>raaraga<c>
+; // [/bass]
+// [percussion]
+#H=g;
+#S=%0 @1 na4 o4 e na0;
+#K=%2 @4 v14 o3 b;
+
+#TABLE 0 { 128};
+#TABLE 1 { 120, 120, 112, 112, 104, 104, 96, 96, 88, 88, 80, 80, 72, 72, 64, 64, 56, 56, 48, 48 };
+
+// HiHat + Crash
+@1 q1 l16 v6 na0 $
+HHHrHHHHHrHHHHHrHHHHHrHr
+;
+// Snare + Kick
+q1 l16 $
+KrKSrKKrKSrKKrKSrKKrKSSS
+;// [percussion]
